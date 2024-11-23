@@ -57,7 +57,7 @@ pipeline {
 
     post {
         always {
-            junit 'test-results/unit.xml'
+            junit 'jest-results/unit.xml'
         }
     }
 }
